@@ -14,7 +14,7 @@
 
 	<groupId>com.isb</groupId>
 	<artifactId>clothes.store</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>clothes.store</name>
 	<description>Clothes eCommerce store</description>
 
