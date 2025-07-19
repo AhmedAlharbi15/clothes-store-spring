@@ -2,6 +2,7 @@ package com.isb.clothes.store.modules.clothes.controller;
 
 import com.isb.clothes.store.modules.clothes.entity.User;
 import com.isb.clothes.store.modules.clothes.service.UserService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,6 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("clothes/users")
-
 public class UserController {
     @Autowired
     private UserService userService;
